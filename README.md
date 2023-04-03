@@ -51,7 +51,7 @@
 
 ## Author
 
-:Man: **Vaibhav Dabral**
+:man: **Vaibhav Dabral**
 
 - [GitHub](https://github.com/VaibhavDabral11)
 - [LinkedIn](https://www.linkedin.com/in/vaibhav-dabral-7a435b1bb/)
