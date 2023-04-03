@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-- [Live Demo]()
+- [Live Demo](https://musclemulti-fit.netlify.app/)
 
 
 # Getting Started
