@@ -1,7 +1,11 @@
 # Muscle Fitness
 
-![Muscle Fitness](![image](https://user-images.githubusercontent.com/116658648/229437509-d3ea2d88-b71b-4cbc-819b-481fdff5b970.png)
-)
+![image](https://user-images.githubusercontent.com/116658648/229437509-d3ea2d88-b71b-4cbc-819b-481fdff5b970.png)
+
+![image](https://user-images.githubusercontent.com/116658648/229441280-27a6bbcd-42ef-4e21-9a14-51790b6d3ee6.png)
+
+![image](https://user-images.githubusercontent.com/116658648/229441319-f1fc3657-de40-46e8-8eac-d0283a2998d5.png)
+
 
 ## Built With
 
@@ -28,12 +32,12 @@
 
 - Choose a folder in your local machine where you want this repository to be copied
 
-- Clone this [repository](https://github.com/Meri-MG/portfolio---react) to your local machine 
+- Clone this [repository](https://github.com/VaibhavDabral11/Gym-React.git) to your local machine 
 - ```
-  git clone git@github.com:Meri-MG/portfolio---react.git
+  git clone git@github.com:VaibhavDabral11/Gym-React.git
   ```
 
-- Navigate to `cd portfolio---react`  directory.
+- Navigate to `cd my-app`  directory.
 
 - To install all the app dependencies on the command line run
 - ```
@@ -47,17 +51,15 @@
 
 ## Author
 
-:woman: **Meri Gogichashvili**
+:Man: **Vaibhav Dabral**
 
-- [GitHub](https://github.com/Meri-MG)
-- [LinkedIn](https://www.linkedin.com/in/meri-gogichashvili/)
+- [GitHub](https://github.com/VaibhavDabral11)
+- [LinkedIn](https://www.linkedin.com/in/vaibhav-dabral-7a435b1bb/)
 
 ## 🤝 Contributing
 - Contributions, issues, and feature requests are welcome!
-- Feel free to check the [issues page](https://github.com/Meri-MG/portfolio---react/issues).
+- Feel free to check the [issues page](https://github.com/VaibhavDabral11/Gym-React/issues).
 
 # Show your support
 Give a ⭐ if you like this project!
 
-# Acknowledgments
-Thanks to [EGATOR](https://www.youtube.com/watch?v=G-Cr00UYokU&list=WL&index=55&t=1845s) tutorial!
