@@ -1,0 +1,21 @@
+.footerStyle {
+    margin-top: 2.9rem;
+    margin-right: 0rem;
+}
+
+@media (max-width: 62em) {
+    .footerStyle {
+        margin-top: 2.9rem;
+        margin-right: 0rem;
+    }
+}
+
+
+/* Below 560px  */
+
+@media (max-width: 35em) {
+    .footerStyle {
+        margin-top: 2.9rem;
+        margin-right: 0rem;
+    }
+}

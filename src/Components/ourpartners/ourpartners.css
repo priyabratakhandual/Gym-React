@@ -1,0 +1,107 @@
+.head {
+    margin: center;
+    margin-bottom: 1rem;
+    margin-top: -3rem;
+}
+
+.heading {
+    font-size: medium;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.card {
+    background: black;
+    opacity: 0.8;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    padding: 4rem;
+    margin-bottom: -2rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 2.8rem;
+    padding-top: 3.6rem;
+}
+
+.myprotin {
+    margin-left: 1.3rem;
+    margin-top: 0.2rem;
+    border-radius: 0.9rem;
+    counter-increment: gallery-cell;
+}
+
+.myfitness {
+    margin-left: 1rem;
+    margin-top: -0.6rem;
+    counter-increment: gallery-cell;
+}
+
+.protinX {
+    margin-left: 1rem;
+    border-radius: 1.1rem;
+    counter-increment: gallery-cell;
+}
+
+.Muscleblaze {
+    margin-left: 1.6rem;
+    border-radius: 1.1rem;
+    counter-increment: gallery-cell;
+}
+
+.GNC {
+    margin-left: 1.6rem;
+    border-radius: 1.1rem;
+    counter-increment: gallery-cell;
+}
+
+.MuscleTech {
+    margin-left: 1.6rem;
+    border-radius: 1.1rem;
+    counter-increment: gallery-cell;
+}
+
+
+/* 980px  */
+
+@media (max-width: 62em) {
+    .card {
+        background: black;
+        opacity: 0.8;
+        border: 0.2rem solid black;
+        border-radius: 1rem;
+        padding: 4rem;
+        margin-bottom: -2rem;
+        margin-right: 7rem;
+        margin-left: 1rem;
+        margin-top: 5rem;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-bottom: 2.8rem;
+        padding-top: 3.6rem;
+    }
+}
+
+
+/* Below 560px  */
+
+@media (max-width: 35em) {
+    .card {
+        background: black;
+        opacity: 0.8;
+        border: 0.2rem solid black;
+        border-radius: 1rem;
+        padding: 4rem;
+        margin-bottom: -2rem;
+        margin-right: 4rem;
+        margin-left: 0.3rem;
+        margin-top: 5rem;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-bottom: 1.8rem;
+        width: 23rem;
+        padding-top: 3.6rem;
+    }
+}
