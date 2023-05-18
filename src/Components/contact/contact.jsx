@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useRef } from 'react';
 import "./contact.css";
 import axios from "axios";
 import { useState } from "react";
 
 const Contact = () => {
   const [formState, setFormState] = useState({
-    Name: String,
-    Age:Number,
-    Gender: String,
-    Address: String,
-    About_more: String,
-  });
+    name: String,
+    age:Number,
+    gender: String,
+    address: String,
+    email: String,
+  })
+  
 
   const changeHandler = (e) => {
     setFormState({
@@ -20,6 +21,7 @@ const Contact = () => {
   };
   
   const handleSubmit = (e) => {
+   
     e.preventDefault();
     console.log(formState);
     axios
@@ -30,9 +32,11 @@ const Contact = () => {
       .catch((error) => {
         console.log(error);
       });
+ 
   };
+  
 
-  const { Name, Age, Gender, Address, About_more } = formState;
+  const { name, age, gender, address, email} = formState;
   
   return (
     <section id="contact">
@@ -47,8 +51,8 @@ const Contact = () => {
               <input
                 className="input"
                 type="text"
-                value={Name}
-                name="Name"
+                value={name}
+                name="name"
                 onChange={changeHandler}
                 placeholder="Name"
                 required
@@ -59,8 +63,8 @@ const Contact = () => {
               <input
                 className="input"
                 type="number"
-                value={Age}
-                name="Age"
+                value={age}
+                name="age"
                 onChange={changeHandler}
                 placeholder="Age"
                 required
@@ -70,8 +74,19 @@ const Contact = () => {
               <input
                 className="input"
                 type="text"
-                value={Gender}
-                name="Gender"
+                value={email}
+                name="email"
+                onChange={changeHandler}
+                placeholder="email"
+                required
+              />
+            </div>
+            <div className="item">
+              <input
+                className="input"
+                type="text"
+                value={gender}
+                name="gender"
                 onChange={changeHandler}
                 placeholder="Gender"
                 required
@@ -80,24 +95,12 @@ const Contact = () => {
             <textarea
               className="input"
               type="text"
-              value={Address}
-              name="Address"
+              value={address}
+              name="address"
               onChange={changeHandler}
               cols="30"
               rows="6"
               placeholder="Address"
-              required
-            ></textarea>
-
-            <textarea
-              className="input"
-              type="text"
-              value={About_more}
-              name="About_more"
-              onChange={changeHandler}
-              cols="30"
-              rows="6"
-              placeholder="More about you"
               required
             ></textarea>
 
