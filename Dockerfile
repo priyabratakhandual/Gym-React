@@ -1,5 +1,5 @@
 # Step 1: Build the React app
-FROM node:16
+FROM node:16 as build
 
 WORKDIR /src
 
@@ -17,10 +17,10 @@ RUN npm run build
 FROM nginx:alpine
 
 # Copy build files from the build stage
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=build /src/build /usr/share/nginx/html
 
 # Expose port 80 to the outside world
-EXPOSE 3000
+EXPOSE 80
 
 # Start the Nginx server
 CMD ["nginx", "-g", "daemon off;"]
