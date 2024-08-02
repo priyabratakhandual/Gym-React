@@ -1,7 +1,7 @@
 # Step 1: Build the React app
 FROM node:16
 
-WORKDIR /app
+WORKDIR /src
 
 # Install dependencies
 COPY package.json package-lock.json ./
