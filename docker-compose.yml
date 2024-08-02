@@ -2,9 +2,9 @@ version: '3.8'
 
 services: 
     gymreact:
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
+      build: 
+        context: .
+        dockerfile: Dockerfile
+      ports:
+        - "3000:3000"
    
