@@ -11,7 +11,9 @@ RUN npm install
 COPY . .
 
 # Build the React app
+RUN npx update-browserslist-db@latest
 RUN npm run build
+
 
 # Step 2: Serve the app using a web server
 FROM nginx:alpine
